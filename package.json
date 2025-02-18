@@ -4,7 +4,7 @@
   "main": "server.ts",
   "scripts": {
     "test": "node test.js",
-    "dist":"npx tsc",
+    "dist": "npx tsc",
     "start": "node dist/server.js",
     "dev": "nodemon src/server.ts",
     "prepare": "husky"
@@ -14,6 +14,8 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-conventional": "^19.7.1",
     "@types/node": "^22.13.4",
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
